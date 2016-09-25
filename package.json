@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "normalize.css": "^4.2.0",
     "react-scripts": "0.6.0"
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "spectacle": "^1.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
