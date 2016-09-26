@@ -8,9 +8,6 @@ import {
     Link,
     Text,
     CodePane,
-    Table,
-    TableRow,
-    TableItem,
     Appear,
     List,
     ListItem,
@@ -54,10 +51,10 @@ function Presentation() {
             </Heading>
           </Slide>
           <Slide>
-            <Table>
-              <TableRow>
-                <TableItem>HTML</TableItem>
-                <TableItem>
+            <div>
+              <Layout>
+                <Fill>HTML</Fill>
+                <Fill>
                   <CodePane lang='jsx' source={`
 <ul class='list'>
   <li>one</li>
@@ -65,14 +62,14 @@ function Presentation() {
 </ul>`
                   }>
                   </CodePane>
-                </TableItem>
-              </TableRow>
-              <TableRow>
+                </Fill>
+              </Layout>
+              <Layout>
                 <Appear>
-                  <TableItem>As an object?</TableItem>
+                  <Fill>As an object?</Fill>
                 </Appear>
                 <Appear>
-                  <TableItem>
+                  <Fill>
                     <CodePane lang='json' source={`
 {
   type: 'ul',
@@ -86,15 +83,15 @@ function Presentation() {
 }`
                   }>
                     </CodePane>
-                  </TableItem>
+                  </Fill>
                 </Appear>
-              </TableRow>
-              <TableRow>
+              </Layout>
+              <Layout>
                 <Appear>
-                  <TableItem>Helpers?</TableItem>
+                  <Fill>Helpers?</Fill>
                 </Appear>
                 <Appear>
-                  <TableItem>
+                  <Fill>
                     <CodePane lang='js' source={`
   createElement('ul', { class: 'list' },
     createElement('li', {}, 'One'),
@@ -102,17 +99,17 @@ function Presentation() {
   )`
                     }>
                     </CodePane>
-                  </TableItem>
+                  </Fill>
                 </Appear>
-              </TableRow>
-              <TableRow>
+              </Layout>
+              <Layout>
                 <Appear>
-                  <TableItem>
-                    JSX
-                  </TableItem>
+                  <Fill>
+                    JSX?
+                  </Fill>
                 </Appear>
                 <Appear>
-                  <TableItem>
+                  <Fill>
                     <CodePane lang='js' source={`
   React.createElement('ul', { className: 'list' },
     React.createElement('li', {}, 'One'),
@@ -121,10 +118,10 @@ function Presentation() {
   `
                     }>
                     </CodePane>
-                  </TableItem>
+                  </Fill>
                 </Appear>
-              </TableRow>
-            </Table>
+              </Layout>
+            </div>
           </Slide>
           <Slide>
             <Heading>
