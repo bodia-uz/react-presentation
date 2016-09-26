@@ -18,6 +18,7 @@ import {
     Fill
 } from "spectacle";
 
+import Clock from './Clock';
 import LifecycleExample from './LifecycleExample';
 
 // Import theme
@@ -213,6 +214,8 @@ function Presentation() {
   }`
                 }>
                 </CodePane>
+                <br />
+                <Clock />
               </Fill>
             </Layout>
           </Slide>
