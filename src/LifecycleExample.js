@@ -63,18 +63,32 @@ class LifecycleExample extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {value: 0};
+    this.state = {
+      value: 0,
+      showCounter: false
+    };
   }
 
   render() {
+    const { showCounter, value } = this.state;
+
     return (
       <div>
-        <Counter
-            value={this.state.value}
-            increment={() => {
-              this.setState(state => ({value: state.value +1 }))
-            }}
-        />
+        <button type='button' onClick={() => {
+          this.setState({showCounter: !showCounter})
+        }}>
+          {showCounter ? 'Hide Counter' : 'Show Counter'}
+        </button>
+        <br />
+        {
+          showCounter &&
+          <Counter
+              value={value}
+              increment={() => {
+                this.setState(state => ({value: state.value +1 }))
+              }}
+          />
+        }
       </div>
     );
   }

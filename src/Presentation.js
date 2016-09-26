@@ -215,7 +215,7 @@ function Presentation() {
 
     componentWillUpdate(nextProps, nextState) {}
 
-    componentDidUpdate() {}
+    componentDidUpdate(prevProps, prevState) {}
 
     componentWillUnmount() {}
 
