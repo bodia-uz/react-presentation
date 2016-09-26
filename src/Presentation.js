@@ -20,6 +20,7 @@ import {
 
 import Clock from './Clock';
 import LifecycleExample from './LifecycleExample';
+import AJAXExample from './AJAXExample';
 
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
@@ -231,6 +232,10 @@ function Presentation() {
             </Heading>
             <br />
             <LifecycleExample />
+          </Slide>
+          <Slide>
+            <Heading>AJAX</Heading>
+            <AJAXExample />
           </Slide>
           <Slide>
             <Heading>
