@@ -261,6 +261,22 @@ function Presentation() {
               </ListItem>
             </List>
           </Slide>
+          <Slide>
+            <Layout>
+              <Fill>
+                Author:
+                <Link href='mailto:bogdan.uz@gmail.com' target='_blank'>
+                  <Text>Bohdan Lyzanets</Text>
+                </Link>
+              </Fill>
+              <Fill>
+                Repository:
+                <Link href='https://github.com/bodia-uz/react-presentation' target='_blank'>
+                  <Text>github.com/bodia-uz/react-presentation</Text>
+                </Link>
+              </Fill>
+            </Layout>
+          </Slide>
         </Deck>
       </Spectacle>
   );
