@@ -2,21 +2,21 @@
   {
     "title": "Root Component",
     "url": "http://andrewhfarmer.com/react-ajax-best-practices/#1-root-component",
-    "imageUrl": "http://andrewhfarmer.com/react-ajax-best-practices/img/root-component.png"
+    "imageUrl": "/images/ajax-root-component.png"
   },
   {
     "title": "Container Components",
     "url": "http://andrewhfarmer.com/react-ajax-best-practices/#2-container-components",
-    "imageUrl": "http://andrewhfarmer.com/react-ajax-best-practices/img/container-components.png"
+    "imageUrl": "/images/ajax-container-components.png"
   },
   {
     "title": "Redux/Flux Async Actions",
     "url": "http://andrewhfarmer.com/react-ajax-best-practices/#3-redux-async-actions",
-    "imageUrl": "http://andrewhfarmer.com/react-ajax-best-practices/img/redux-async-actions.png"
+    "imageUrl": "/images/ajax-redux-async-actions.png"
   },
   {
     "title": "GraphQL Client",
     "url": "http://andrewhfarmer.com/react-ajax-best-practices/#4-relay",
-    "imageUrl": "http://andrewhfarmer.com/react-ajax-best-practices/img/relay.png"
+    "imageUrl": "/images/ajax-relay.png"
   }
 ]
