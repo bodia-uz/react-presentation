@@ -40,7 +40,7 @@ function Presentation() {
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
           <Slide>
-            <Heading size={1} fit lineHeight={1}>
+            <Heading fit>
               React
             </Heading>
             <Link href="https://facebook.github.io/react/" target='_blank'>
@@ -48,7 +48,7 @@ function Presentation() {
             </Link>
           </Slide>
           <Slide>
-            <Heading size={1} fit lineHeight={1}>
+            <Heading fit>
               const view = f(data)
             </Heading>
           </Slide>
@@ -143,33 +143,6 @@ function Presentation() {
             </List>
           </Slide>
           <Slide>
-            <Heading>
-              Getting Started
-            </Heading>
-            <List>
-              <ListItem>
-                <Link href='https://jsfiddle.net/reactjs/69z2wepo/' target='_blank'>
-                  <Text>JS Sandbox</Text>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href='https://github.com/facebookincubator/create-react-app' target='_blank'>
-                  <Text>Create React App</Text>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href='http://lmgtfy.com/?q=react+starter+kit' target='_blank'>
-                  <Text>Starter Kits?</Text>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href='https://facebook.github.io/react/docs/package-management.html' target='_blank'>
-                  <Text>Use npm, bower, etc..</Text>
-                </Link>
-              </ListItem>
-            </List>
-          </Slide>
-          <Slide>
             <Heading fit>
               Smart and Dumb
             </Heading>
@@ -256,7 +229,35 @@ function Presentation() {
             <Heading fit>
               Lifecycle Example
             </Heading>
+            <br />
             <LifecycleExample />
+          </Slide>
+          <Slide>
+            <Heading>
+              Getting Started
+            </Heading>
+            <List>
+              <ListItem>
+                <Link href='https://jsfiddle.net/reactjs/69z2wepo/' target='_blank'>
+                  <Text>JS Sandbox</Text>
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href='https://github.com/facebookincubator/create-react-app' target='_blank'>
+                  <Text>Create React App</Text>
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href='http://lmgtfy.com/?q=react+starter+kit' target='_blank'>
+                  <Text>Starter Kits?</Text>
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href='https://facebook.github.io/react/docs/package-management.html' target='_blank'>
+                  <Text>Use npm, bower, etc..</Text>
+                </Link>
+              </ListItem>
+            </List>
           </Slide>
         </Deck>
       </Spectacle>
