@@ -130,12 +130,12 @@ function Presentation() {
             <List>
               <ListItem>
                 <Link href='http://jsbin.com/magafu/edit?js,output' target='_blank'>
-                  <Text>Simple</Text>
+                  <Text textColor='quartenary'>Simple</Text>
                 </Link>
               </ListItem>
               <ListItem>
                 <Link href='https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060' target='_blank'>
-                  <Text>Complex</Text>
+                  <Text textColor='quartenary'>Complex</Text>
                 </Link>
               </ListItem>
             </List>
@@ -187,7 +187,25 @@ function Presentation() {
                 </CodePane>
                 <br />
                 <Clock />
-              </Fill>
+                <br />
+                <Appear>
+                  <div>
+                    <Text textColor='quartenary'>TO READ:</Text>
+                    <List>
+                      <ListItem>
+                        <Link href="https://facebook.github.io/react/docs/thinking-in-react.html" target='_blank'>
+                          <Text textColor='quartenary'>Thinking in React</Text>
+                        </Link>
+                      </ListItem>
+                      <ListItem>
+                        <Link href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0" target='_blank'>
+                          <Text textColor='quartenary'>Smart and Dumb Comp..</Text>
+                        </Link>
+                      </ListItem>
+                    </List>
+                  </div>
+               </Appear>
+            </Fill>
             </Layout>
           </Slide>
           <Slide>
@@ -241,22 +259,22 @@ function Presentation() {
             <List>
               <ListItem>
                 <Link href='https://jsfiddle.net/reactjs/69z2wepo/' target='_blank'>
-                  <Text>JS Sandbox</Text>
+                  <Text style={{color: '#e9e9e9'}}>JS Sandbox</Text>
                 </Link>
               </ListItem>
               <ListItem>
                 <Link href='https://github.com/facebookincubator/create-react-app' target='_blank'>
-                  <Text>Create React App</Text>
+                  <Text textColor='quartenary'>Create React App</Text>
                 </Link>
               </ListItem>
               <ListItem>
                 <Link href='http://lmgtfy.com/?q=react+starter+kit' target='_blank'>
-                  <Text>Starter Kits?</Text>
+                  <Text textColor='quartenary'>Starter Kits?</Text>
                 </Link>
               </ListItem>
               <ListItem>
                 <Link href='https://facebook.github.io/react/docs/package-management.html' target='_blank'>
-                  <Text>Use npm, bower, etc..</Text>
+                  <Text textColor='quartenary'>Use npm, bower, etc..</Text>
                 </Link>
               </ListItem>
             </List>
@@ -266,13 +284,13 @@ function Presentation() {
               <Fill>
                 Author:
                 <Link href='mailto:bogdan.uz@gmail.com' target='_blank'>
-                  <Text>Bohdan Lyzanets</Text>
+                  <Text textColor='quartenary'>Bohdan Lyzanets</Text>
                 </Link>
               </Fill>
               <Fill>
                 Repository:
                 <Link href='https://github.com/bodia-uz/react-presentation' target='_blank'>
-                  <Text>github.com/bodia-uz/react-presentation</Text>
+                  <Text textColor='quartenary'>github.com/bodia-uz/react-presentation</Text>
                 </Link>
               </Fill>
             </Layout>

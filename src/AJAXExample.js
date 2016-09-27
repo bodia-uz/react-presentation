@@ -37,7 +37,7 @@ class AJAXExample extends Component {
               {examples.map(({title, url}) =>
                 <Fill key={url}>
                   <Link href={url} target='_blamk'>
-                    <Text>
+                    <Text textColor='quartenary'>
                       {title}
                     </Text>
                   </Link>
